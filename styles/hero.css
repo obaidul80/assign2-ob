@@ -16,19 +16,15 @@
   }
   .nav-title{
     display: flex;
+    gap right: 10px;
   }
+
   .primary-color{
     color: #FF5400;
   }
   .nav{
     display: flex;
-
-    .nav-t{
-        font-size: 36px;
-        font-weight: 800;
-    }
-    
-  }
+}
   .nav-main{
     display: flex;
     justify-content: space-between;
@@ -41,3 +37,22 @@
     margin-right: 44px;
     color: #424247;
   }
+  .banner-pic{
+   margin-top: 50px;
+  }
+.banner-input{
+  position: relative;
+  display: flex;
+  justify-content: center; 
+
+  
+}
+  /* responsive media queries for mobile device */
+  @media screen and ( max-width:600px) {
+  
+    nav-main{
+      flex-direction: column;
+    }
+  }
+
+  
