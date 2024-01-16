@@ -18,7 +18,13 @@
     display: flex;
     gap right: 10px;
   }
+.btn-all{
+  border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
 
+}
   .primary-color{
     color: #FF5400;
   }
@@ -37,22 +43,49 @@
     margin-right: 44px;
     color: #424247;
   }
-  .banner-pic{
+
+
+.banner-pic{
    margin-top: 50px;
   }
 .banner-input{
   position: relative;
   display: flex;
-  justify-content: center; 
+justify-content: center;   }
+  
 
+/* tour description */
+
+.Tours{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
   
 }
-  /* responsive media queries for mobile device */
-  @media screen and ( max-width:600px) {
-  
-    nav-main{
-      flex-direction: column;
-    }
-  }
+.tour-title{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
 
-  
+}
+
+.tour-intro{
+  border: 2px solid aquamarine;
+}
+.desti-heading{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.desti-text{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+/* responsiv for mobile device */
